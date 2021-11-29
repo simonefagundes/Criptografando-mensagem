@@ -30,7 +30,7 @@ using (Aes aes = Aes.Create())
 }
 
 
-Console.Writeline("Mensagem original: " {0}, mensagemSecreta);
+Console.WriteLine("Mensagem original: " {0}, mensagemSecreta);
 ExibirBytes("Chave: ", chave);
 ExibirBytes("Texto encriptado: ", textoCifrado);
     Console.ReadLine();
